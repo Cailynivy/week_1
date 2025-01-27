@@ -79,10 +79,10 @@ ASSIGNMENT GOAL:
 
 '''
 
-name = input('Please enter a name: ')
-age = int(input('Please enter an age: '))
-height = float(input('Please enter a height: '))
-is_student = bool(input('Please enter whether or not you are a student: '))
+name = str(input('Please enter a name:'))
+age = int(input('Please enter an age:'))
+height = float(input('Please enter a height:'))
+is_student = bool(input('Please enter wheter student or not:'))
 
 
 
@@ -91,7 +91,7 @@ displayValues(name,age,height,is_student)
 ##### ASSIGNMENT ENDS HERE #####
 
 
-#%%
+#
 # Run this cell when you're ready to check your data!
 message = dataCheck(name,age,height,is_student)
 
